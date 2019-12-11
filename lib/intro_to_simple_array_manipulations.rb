@@ -20,3 +20,10 @@ end
 def using_shift(array)
   array.shift
 end
+
+def shift_with_args(array)
+  buffer=[]
+  buffer[0]=array.shift
+  buffer[1]=array.shift
+  return buffer
+end
