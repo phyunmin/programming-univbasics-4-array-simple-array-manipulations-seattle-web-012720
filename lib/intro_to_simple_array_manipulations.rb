@@ -11,8 +11,8 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  []
-  [0]=array.shift
-  [1]=array.shift
-  return []
+  buffer=[]
+  buffer[0]=array.shift
+  buffer[1]=array.shift
+  return buffer
 end
