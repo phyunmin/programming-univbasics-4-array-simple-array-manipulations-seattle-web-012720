@@ -12,8 +12,8 @@ end
 
 def pop_with_args(array)
   buffer=[]
-  buffer[0]=array.pop
-  buffer[1]=array.pop
+  buffer.push(array.pop)
+  buffer.push(array.pop)
   return buffer
 end
 
