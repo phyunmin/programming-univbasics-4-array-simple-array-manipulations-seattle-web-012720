@@ -16,3 +16,7 @@ def pop_with_args(array)
   buffer[1]=array.pop
   return buffer
 end
+
+def using_shift(array)
+  array.shift
+end
